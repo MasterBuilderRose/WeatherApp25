@@ -18,12 +18,13 @@
       <!-- Headrer -->
       <header>
         <!-- Form -->
-        <form class="weather-app-form">
+        <form class="weather-app-search-form" id="weather-app-search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="search" class="search-form-button" />
         </form>
@@ -35,7 +36,7 @@
 
           <!-- Weather App City and Info -->
           <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="weather-app-city">Paris</h1>
             <p class="weather-app-details">
               Tuesday 14:49, scattered clouds
               <br />
